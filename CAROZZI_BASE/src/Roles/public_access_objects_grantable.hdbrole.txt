@@ -1,0 +1,588 @@
+{
+    "role": {
+        "name": "SCP_CAROZZI_SAC.ObjetosComunes::PublicAccessObjects#",
+        "object_privileges": [
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::CALENDARIO",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::COPYOFDIM_AREA_NEGOCIO",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::COPYOFDIM_CUENTA",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::COPYOFDIM_SELLSUPERVISOR",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::COPYOFDIM_SETNODE",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::COPYOFJERARQUIAS_V2_CANALCOMERCIAL",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::COPYOFJERARQUIAS_V2_CLIENTE",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::COPYOFJERARQUIA_CLIENTE_2",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::COPY_2_OF_DIM_CLIENTE",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DATOS_MAESTROS_META",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_ACREER",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_AREA_NEGOCIO",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_AREA_NEGOCIO_GA",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_CADENA_SUBCADENA",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_CADENA_SUBCADENA_LOCAL",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_CANALES_SETLEAF_AUX",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_CANAL_COMERCIAL",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_CANAL_DISTRIBUCION",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_CATEGORIA",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_CENTRO",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_CENTRO_P_MATERIAL",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_CLIENTE",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_CLIENTE2",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_CLIENTE_CECO_SETLEAF_AUX",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_CLIENTE_CLASIF_ESPECIAL",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_CLIENTE_SETLEAF_AUX",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_CLIENTE_VD",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_COMUNA",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_CUENTA",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_CUENTA2",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_CUENTA_SETLEAF_AUX",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_DIVISION_COMERCIAL",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_DIVISION_SETLEAF_AUX",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_ELEMENT_COST",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_GRUPO_CUENTA_EERR",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_GRUPO_MATERIAL",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_GRUPO_VENDEDOR",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_JERARQUIA_CUENTA_TEXT",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_JER_CLASES_DE_COSTOS",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_JER_CLASES_DE_COSTOS2",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_JER_CONTRATOS",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_LOCAL",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_MATERIAL",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_MATERIAL_2",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_MATERIAL_PT",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_OFICINA_SETLEAF_AUX",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_OFICINA_VENTA",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_ORGANIZACION_VENTA",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_PAIS",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_PROVINCIA",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_REGION",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_SALA_FISICA",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_SECTOR",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_SELLHOMPRD",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_SELLLOCAL",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_SELLPROD",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_SELLSUPERVISOR",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_SETLEAF",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_SETNODE",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_SOCIEDAD_CO",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_SOCIEDAD_FI",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_TIEMPO",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_UNIDAD_NEGOCIO",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_UNIDAD_VENTA",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_UNIDAD_VENTA_MAX",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_VENDEDOR",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::DIM_VENDEDOR_VD",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::JERARQUIA",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::JERARQUIAS",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::JERARQUIAS_CLIENTE_2",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::JERARQUIAS_CUENTA",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::JERARQUIAS_V2",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::JERARQUIAS_V2_CANALCOMERCIAL",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::JERARQUIAS_V2_CLIENTE",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::JERARQUIAS_V2_OFICINA",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::JERARQUIA_CANAL_COMERCIAL",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::JERARQUIA_CLIENTE",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::JERARQUIA_CLIENTE_2",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::JERARQUIA_OFICINA",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::JERARQUIA_PAIS",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::JERARQUIA_PAISES",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::PGR_JER_CUENTAS",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "SCP_CAROZZI_SAC.ObjetosComunes::SETNODE",
+                "type": "VIEW",
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            }
+        ]
+    }
+}

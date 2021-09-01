@@ -1,0 +1,13 @@
+{
+    "role": {
+        "name": "SCP_CAROZZI_SAC.ObjetosComunes::PublicAccessSchema",
+        "schema_privileges": [
+            {
+                "privileges": [
+                    "SELECT",
+                    "EXECUTE"
+                ]
+            }
+        ]
+    }
+}

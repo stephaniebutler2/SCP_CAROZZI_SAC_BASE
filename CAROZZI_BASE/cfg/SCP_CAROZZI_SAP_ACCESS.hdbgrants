@@ -1,0 +1,10 @@
+{
+	"hdi_eccrep_db": {
+		"object_owner": {
+			"container_roles": ["SCP_CAROZZI_SAC::access#"]
+		},
+		"application_user": {
+			"container_roles": ["SCP_CAROZZI_SAC::access"]
+		}
+	}
+}
