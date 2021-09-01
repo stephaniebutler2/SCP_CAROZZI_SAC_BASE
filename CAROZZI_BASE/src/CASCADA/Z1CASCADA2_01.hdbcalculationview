@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Calculation:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" xmlns:DataFoundation="http://www.sap.com/ndb/BiModelDataFoundation.ecore" xmlns:Dimension="http://www.sap.com/ndb/BiModelDimension.ecore" schemaVersion="3.0" id="VZ1CASCADA2_01" applyPrivilegeType="NONE" defaultLanguage="$$language$$" hierarchiesSQLEnabled="false" dataCategory="CUBE" enforceSqlExecution="true" executionSemantic="UNDEFINED">
+<Calculation:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" xmlns:DataFoundation="http://www.sap.com/ndb/BiModelDataFoundation.ecore" xmlns:Dimension="http://www.sap.com/ndb/BiModelDimension.ecore" schemaVersion="3.0" id="SCP_CAROZZI_SAC.CASCADA::Z1CASCADA2_01" applyPrivilegeType="NONE" defaultLanguage="$$language$$" hierarchiesSQLEnabled="false" dataCategory="CUBE" enforceSqlExecution="true" executionSemantic="UNDEFINED">
 <origin/>
   <descriptions defaultDescription="x"/>
-  <metadata changedAt="2020-04-27 09:07:52.154"/>
+  <metadata changedAt="2020-05-05 18:29:04.62"/>
   <localVariables/>
   <variableMappings/>
-  <informationModelLayout relativeWidthScenario="22"/>
+  <informationModelLayout relativeWidthScenario="37"/>
   <dataSources>
     <DataSource id="Z1CASCADA2">
       <resourceUri>SCP_CAROZZI_SAC.CASCADA::Z1CASCADA2</resourceUri>
@@ -34,7 +34,7 @@
         <viewAttribute id="ARTNR"/>
         <viewAttribute id="KSTAR"/>
         <viewAttribute id="GJAHR"/>
-        <viewAttribute id="KILOS"/>
+        <viewAttribute aggregationType="sum" id="KILOS"/>
         <viewAttribute id="MEINH"/>
       </viewAttributes>
     <calculatedViewAttributes/>
