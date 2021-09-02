@@ -8,7 +8,7 @@
   <informationModelLayout relativeWidthScenario="37"/>
   <dataSources>
     <DataSource id="Z1CASCADA2">
-      <resourceUri>SCP_CAROZZI_SAC.CASCADA::Z1CASCADA2</resourceUri>
+      <resourceUri>Z1CASCADA2</resourceUri>
     </DataSource>
   </dataSources>
 <calculationViews>

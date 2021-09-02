@@ -11,7 +11,7 @@
       <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::JERARQUIAS_V2_CANALCOMERCIAL</resourceUri>
     </DataSource>
     <DataSource id="Z1RUBROS">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::Z1RUBROS</resourceUri>
+      <resourceUri>Z1RUBROS</resourceUri>
     </DataSource>
     <DataSource id="SCP_CAROZZI_SAC.ObjetosComunes::JERARQUIAS_V2_CANALCOMERCIAL">
       <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::JERARQUIAS_V2_CANALCOMERCIAL</resourceUri>

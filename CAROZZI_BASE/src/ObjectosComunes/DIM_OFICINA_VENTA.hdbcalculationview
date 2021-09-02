@@ -8,7 +8,7 @@
   <informationModelLayout relativeWidthScenario="45"/>
   <dataSources>
     <DataSource id="TVKBT">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::TVKBT</resourceUri>
+      <resourceUri>TVKBT</resourceUri>
     </DataSource>
     <DataSource id="JERARQUIAS">
       <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::JERARQUIAS</resourceUri>

@@ -8,7 +8,7 @@
   <informationModelLayout relativeWidthScenario="35"/>
   <dataSources>
     <DataSource id="PA0001">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::PA0001</resourceUri>
+      <resourceUri>PA0001</resourceUri>
     </DataSource>
   </dataSources>
 <calculationViews>

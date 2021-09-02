@@ -8,19 +8,19 @@
   <informationModelLayout relativeWidthScenario="49"/>
   <dataSources>
     <DataSource id="KNA1">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::KNA1</resourceUri>
+      <resourceUri>KNA1</resourceUri>
     </DataSource>
     <DataSource id="KNVH">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::KNVH</resourceUri>
+      <resourceUri>KNVH</resourceUri>
     </DataSource>
     <DataSource id="Z1VCLIENTEXREMO">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::Z1VCLIENTEXREMO</resourceUri>
+      <resourceUri>Z1VCLIENTEXREMO</resourceUri>
     </DataSource>
-    <DataSource id="SCP_CAROZZI_SAC.ObjetosComunes::KNA1">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::KNA1</resourceUri>
+    <DataSource id="Projection_3$$$$KNA1$$">
+      <resourceUri>KNA1</resourceUri>
     </DataSource>
     <DataSource id="KNVV">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::KNVV</resourceUri>
+      <resourceUri>KNVV</resourceUri>
     </DataSource>
     <DataSource id="DIM_CLIENTE_CLASIF_ESPECIAL">
       <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::DIM_CLIENTE_CLASIF_ESPECIAL</resourceUri>
@@ -167,7 +167,7 @@
         <viewAttribute id="ZLENG"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="SCP_CAROZZI_SAC.ObjetosComunes::KNA1">
+      <input node="Projection_3$$$$KNA1$$">
         <mapping xsi:type="Calculation:AttributeMapping" target="CLIENTE_ATTR_CLIENTE_PADRE_TEXT_1" source="NAME1"/>
         <mapping xsi:type="Calculation:AttributeMapping" target="CLIENTE_ATTR_CLIENTE_PADRE_TEXT_2" source="NAME4"/></input>
     <filter>(&quot;SPRAS&quot; ='S')</filter>

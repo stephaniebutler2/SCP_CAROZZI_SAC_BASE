@@ -8,7 +8,7 @@
   <informationModelLayout relativeWidthScenario="34"/>
   <dataSources>
     <DataSource id="TVKOT">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::TVKOT</resourceUri>
+      <resourceUri>TVKOT</resourceUri>
     </DataSource>
   </dataSources>
 <calculationViews>

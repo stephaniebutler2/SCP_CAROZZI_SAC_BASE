@@ -8,7 +8,7 @@
   <informationModelLayout relativeWidthScenario="43"/>
   <dataSources>
     <DataSource id="CSKU">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::CSKU</resourceUri>
+      <resourceUri>CSKU</resourceUri>
     </DataSource>
     <DataSource id="DIM_JER_CLASES_DE_COSTOS">
       <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::DIM_JER_CLASES_DE_COSTOS</resourceUri>

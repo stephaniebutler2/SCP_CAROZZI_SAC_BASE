@@ -8,22 +8,22 @@
   <informationModelLayout relativeWidthScenario="39"/>
   <dataSources>
     <DataSource id="MARA">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::MARA</resourceUri>
+      <resourceUri>MARA</resourceUri>
     </DataSource>
     <DataSource id="MAKT">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::MAKT</resourceUri>
+      <resourceUri>MAKT</resourceUri>
     </DataSource>
     <DataSource id="AUSP">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::AUSP</resourceUri>
+      <resourceUri>AUSP</resourceUri>
     </DataSource>
-    <DataSource id="SCP_CAROZZI_SAC.ObjetosComunes::AUSP">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::AUSP</resourceUri>
+    <DataSource id="Projection_4$$$$AUSP$$">
+      <resourceUri>AUSP</resourceUri>
     </DataSource>
-    <DataSource id="Projection_5$$$$SCP_CAROZZI_SAC.ObjetosComunes::AUSP$$">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::AUSP</resourceUri>
+    <DataSource id="Projection_5$$$$AUSP$$">
+      <resourceUri>AUSP</resourceUri>
     </DataSource>
-    <DataSource id="Projection_6$$$$SCP_CAROZZI_SAC.ObjetosComunes::AUSP$$">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::AUSP</resourceUri>
+    <DataSource id="Projection_6$$$$AUSP$$">
+      <resourceUri>AUSP</resourceUri>
     </DataSource>
   </dataSources>
 <calculationViews>
@@ -177,7 +177,7 @@
         <viewAttribute id="ATWRT"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="SCP_CAROZZI_SAC.ObjetosComunes::AUSP"/>
+      <input node="Projection_4$$$$AUSP$$"/>
     <filter>(&quot;ATINN&quot; ='0000001324') AND (&quot;KLART&quot; ='001')</filter>
   </calculationView>
   <calculationView xsi:type="Calculation:JoinView" id="Join_3" joinType="leftOuter">
@@ -238,7 +238,7 @@
         <viewAttribute id="ATWRT"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="Projection_5$$$$SCP_CAROZZI_SAC.ObjetosComunes::AUSP$$"/>
+      <input node="Projection_5$$$$AUSP$$"/>
     <filter>(&quot;ATINN&quot; ='0000001297') AND (&quot;KLART&quot; ='001')</filter>
   </calculationView>
   <calculationView xsi:type="Calculation:JoinView" id="Join_4" joinType="leftOuter">
@@ -301,7 +301,7 @@
         <viewAttribute id="ATWRT"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="Projection_6$$$$SCP_CAROZZI_SAC.ObjetosComunes::AUSP$$"/>
+      <input node="Projection_6$$$$AUSP$$"/>
     <filter>(&quot;ATINN&quot; ='0000001364') AND (&quot;KLART&quot; ='001')</filter>
   </calculationView>
   <calculationView xsi:type="Calculation:JoinView" id="Join_5" joinType="leftOuter">

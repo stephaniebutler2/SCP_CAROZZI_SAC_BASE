@@ -8,16 +8,16 @@
   <informationModelLayout relativeWidthScenario="40"/>
   <dataSources>
     <DataSource id="ZBWGA_CT">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::ZBWGA_CT</resourceUri>
+      <resourceUri>ZBWGA_CT</resourceUri>
     </DataSource>
     <DataSource id="T023T">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::T023T</resourceUri>
+      <resourceUri>T023T</resourceUri>
     </DataSource>
     <DataSource id="ZBWCT">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::ZBWCT</resourceUri>
+      <resourceUri>ZBWCT</resourceUri>
     </DataSource>
     <DataSource id="Z1BOUNINEG">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::Z1BOUNINEG</resourceUri>
+      <resourceUri>Z1BOUNINEG</resourceUri>
     </DataSource>
   </dataSources>
 <calculationViews>

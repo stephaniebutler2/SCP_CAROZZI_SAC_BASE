@@ -8,19 +8,19 @@
   <informationModelLayout relativeWidthScenario="34"/>
   <dataSources>
     <DataSource id="SETNODE">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::SETNODE</resourceUri>
+      <resourceUri>SETNODE</resourceUri>
     </DataSource>
-    <DataSource id="SCP_CAROZZI_SAC.ObjetosComunes::SETNODE">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::SETNODE</resourceUri>
+    <DataSource id="Projection_2$$$$SETNODE$$">
+      <resourceUri>SETNODE</resourceUri>
     </DataSource>
-    <DataSource id="SETLEAF">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::SETLEAF</resourceUri>
+    <DataSource id="VT_SETLEAF">
+      <resourceUri>VT_SETLEAF</resourceUri>
     </DataSource>
     <DataSource id="SETHEADERT">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::SETHEADERT</resourceUri>
+      <resourceUri>SETHEADERT</resourceUri>
     </DataSource>
-    <DataSource id="SCP_CAROZZI_SAC.ObjetosComunes::SETHEADERT">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::SETHEADERT</resourceUri>
+    <DataSource id="Projection_5$$$$SETHEADERT$$">
+      <resourceUri>SETHEADERT</resourceUri>
     </DataSource>
   </dataSources>
 <calculationViews>
@@ -51,7 +51,7 @@
         <viewAttribute id="SUBCLASS"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="SCP_CAROZZI_SAC.ObjetosComunes::SETNODE"/>
+      <input node="Projection_2$$$$SETNODE$$"/>
     </calculationView>
   <calculationView xsi:type="Calculation:JoinView" id="Join_1" joinType="leftOuter">
     <descriptions/>
@@ -91,7 +91,7 @@
         <viewAttribute id="VALFROM"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="SETLEAF"/>
+      <input node="VT_SETLEAF"/>
     </calculationView>
   <calculationView xsi:type="Calculation:JoinView" id="Join_3" joinType="inner">
     <descriptions/>
@@ -189,7 +189,7 @@
         <viewAttribute id="SETNAME"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="SCP_CAROZZI_SAC.ObjetosComunes::SETHEADERT"/>
+      <input node="Projection_5$$$$SETHEADERT$$"/>
     </calculationView>
   <calculationView xsi:type="Calculation:JoinView" id="Join_4" joinType="leftOuter">
     <descriptions/>

@@ -8,64 +8,64 @@
   <informationModelLayout relativeWidthScenario="27"/>
   <dataSources>
     <DataSource id="SETNODE">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::SETNODE</resourceUri>
+      <resourceUri>SETNODE</resourceUri>
     </DataSource>
-    <DataSource id="SCP_CAROZZI_SAC.ObjetosComunes::SETNODE">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::SETNODE</resourceUri>
+    <DataSource id="Projection_2$$$$SETNODE$$">
+      <resourceUri>SETNODE</resourceUri>
     </DataSource>
-    <DataSource id="Projection_3$$$$SCP_CAROZZI_SAC.ObjetosComunes::SETNODE$$">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::SETNODE</resourceUri>
+    <DataSource id="Projection_3$$$$SETNODE$$">
+      <resourceUri>SETNODE</resourceUri>
     </DataSource>
-    <DataSource id="Projection_4$$$$SCP_CAROZZI_SAC.ObjetosComunes::SETNODE$$">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::SETNODE</resourceUri>
+    <DataSource id="Projection_4$$$$SETNODE$$">
+      <resourceUri>SETNODE</resourceUri>
     </DataSource>
-    <DataSource id="Projection_5$$$$SCP_CAROZZI_SAC.ObjetosComunes::SETNODE$$">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::SETNODE</resourceUri>
+    <DataSource id="Projection_5$$$$SETNODE$$">
+      <resourceUri>SETNODE</resourceUri>
     </DataSource>
-    <DataSource id="Projection_6$$$$SCP_CAROZZI_SAC.ObjetosComunes::SETNODE$$">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::SETNODE</resourceUri>
+    <DataSource id="Projection_6$$$$SETNODE$$">
+      <resourceUri>SETNODE</resourceUri>
     </DataSource>
-    <DataSource id="Projection_7$$$$SCP_CAROZZI_SAC.ObjetosComunes::SETNODE$$">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::SETNODE</resourceUri>
+    <DataSource id="Projection_7$$$$SETNODE$$">
+      <resourceUri>SETNODE</resourceUri>
     </DataSource>
     <DataSource id="SETHEADERT">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::SETHEADERT</resourceUri>
+      <resourceUri>SETHEADERT</resourceUri>
     </DataSource>
-    <DataSource id="Projection_19$$$$SCP_CAROZZI_SAC.ObjetosComunes::SETNODE$$">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::SETNODE</resourceUri>
+    <DataSource id="Projection_19$$$$SETNODE$$">
+      <resourceUri>SETNODE</resourceUri>
     </DataSource>
-    <DataSource id="SCP_CAROZZI_SAC.ObjetosComunes::SETHEADERT">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::SETHEADERT</resourceUri>
+    <DataSource id="Projection_9$$$$SETHEADERT$$">
+      <resourceUri>SETHEADERT</resourceUri>
     </DataSource>
-    <DataSource id="Projection_10$$$$SCP_CAROZZI_SAC.ObjetosComunes::SETHEADERT$$">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::SETHEADERT</resourceUri>
+    <DataSource id="Projection_10$$$$SETHEADERT$$">
+      <resourceUri>SETHEADERT</resourceUri>
     </DataSource>
-    <DataSource id="Projection_11$$$$SCP_CAROZZI_SAC.ObjetosComunes::SETHEADERT$$">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::SETHEADERT</resourceUri>
+    <DataSource id="Projection_11$$$$SETHEADERT$$">
+      <resourceUri>SETHEADERT</resourceUri>
     </DataSource>
-    <DataSource id="Projection_12$$$$SCP_CAROZZI_SAC.ObjetosComunes::SETHEADERT$$">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::SETHEADERT</resourceUri>
+    <DataSource id="Projection_12$$$$SETHEADERT$$">
+      <resourceUri>SETHEADERT</resourceUri>
     </DataSource>
     <DataSource id="SETLEAF">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::SETLEAF</resourceUri>
+      <resourceUri>SETLEAF</resourceUri>
     </DataSource>
-    <DataSource id="Projection_20$$$$SCP_CAROZZI_SAC.ObjetosComunes::SETHEADERT$$">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::SETHEADERT</resourceUri>
+    <DataSource id="Projection_20$$$$SETHEADERT$$">
+      <resourceUri>SETHEADERT</resourceUri>
     </DataSource>
-    <DataSource id="SCP_CAROZZI_SAC.ObjetosComunes::SETLEAF">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::SETLEAF</resourceUri>
+    <DataSource id="Projection_14$$$$SETLEAF$$">
+      <resourceUri>SETLEAF</resourceUri>
     </DataSource>
-    <DataSource id="Projection_15$$$$SCP_CAROZZI_SAC.ObjetosComunes::SETLEAF$$">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::SETLEAF</resourceUri>
+    <DataSource id="Projection_15$$$$SETLEAF$$">
+      <resourceUri>SETLEAF</resourceUri>
     </DataSource>
-    <DataSource id="Projection_16$$$$SCP_CAROZZI_SAC.ObjetosComunes::SETLEAF$$">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::SETLEAF</resourceUri>
+    <DataSource id="Projection_16$$$$SETLEAF$$">
+      <resourceUri>SETLEAF</resourceUri>
     </DataSource>
-    <DataSource id="Projection_17$$$$SCP_CAROZZI_SAC.ObjetosComunes::SETLEAF$$">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::SETLEAF</resourceUri>
+    <DataSource id="Projection_17$$$$SETLEAF$$">
+      <resourceUri>SETLEAF</resourceUri>
     </DataSource>
-    <DataSource id="Projection_18$$$$SCP_CAROZZI_SAC.ObjetosComunes::SETLEAF$$">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::SETLEAF</resourceUri>
+    <DataSource id="Projection_18$$$$SETLEAF$$">
+      <resourceUri>SETLEAF</resourceUri>
     </DataSource>
   </dataSources>
 <calculationViews>
@@ -94,7 +94,7 @@
         <viewAttribute id="SUBSETNAME"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="SCP_CAROZZI_SAC.ObjetosComunes::SETNODE"/>
+      <input node="Projection_2$$$$SETNODE$$"/>
     </calculationView>
   <calculationView xsi:type="Calculation:JoinView" id="nivel2" joinType="leftOuter">
     <descriptions defaultDescription="J1"/>
@@ -133,7 +133,7 @@
         <viewAttribute id="SUBSETNAME"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="Projection_3$$$$SCP_CAROZZI_SAC.ObjetosComunes::SETNODE$$"/>
+      <input node="Projection_3$$$$SETNODE$$"/>
     </calculationView>
   <calculationView xsi:type="Calculation:JoinView" id="nivel3" joinType="leftOuter">
     <descriptions defaultDescription="N1"/>
@@ -174,7 +174,7 @@
         <viewAttribute id="SUBSETNAME"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="Projection_4$$$$SCP_CAROZZI_SAC.ObjetosComunes::SETNODE$$"/>
+      <input node="Projection_4$$$$SETNODE$$"/>
     </calculationView>
   <calculationView xsi:type="Calculation:JoinView" id="nivel4" joinType="leftOuter">
     <descriptions defaultDescription="N2"/>
@@ -217,7 +217,7 @@
         <viewAttribute id="SUBSETNAME"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="Projection_5$$$$SCP_CAROZZI_SAC.ObjetosComunes::SETNODE$$"/>
+      <input node="Projection_5$$$$SETNODE$$"/>
     </calculationView>
   <calculationView xsi:type="Calculation:JoinView" id="nivel5" joinType="leftOuter">
     <descriptions defaultDescription="N3"/>
@@ -262,7 +262,7 @@
         <viewAttribute id="SUBSETNAME"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="Projection_6$$$$SCP_CAROZZI_SAC.ObjetosComunes::SETNODE$$"/>
+      <input node="Projection_6$$$$SETNODE$$"/>
     </calculationView>
   <calculationView xsi:type="Calculation:JoinView" id="nivel6" joinType="leftOuter">
     <descriptions defaultDescription="N4"/>
@@ -309,7 +309,7 @@
         <viewAttribute id="SUBSETNAME"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="Projection_7$$$$SCP_CAROZZI_SAC.ObjetosComunes::SETNODE$$"/>
+      <input node="Projection_7$$$$SETNODE$$"/>
     </calculationView>
   <calculationView xsi:type="Calculation:JoinView" id="nivel7" joinType="leftOuter">
     <descriptions defaultDescription="N5"/>
@@ -371,7 +371,7 @@
         <viewAttribute id="SETNAME"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="Projection_19$$$$SCP_CAROZZI_SAC.ObjetosComunes::SETNODE$$"/>
+      <input node="Projection_19$$$$SETNODE$$"/>
     </calculationView>
   <calculationView xsi:type="Calculation:JoinView" id="nivel8" joinType="leftOuter">
     <descriptions defaultDescription="N6"/>
@@ -468,7 +468,7 @@
         <viewAttribute id="LANGU"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="SCP_CAROZZI_SAC.ObjetosComunes::SETHEADERT"/>
+      <input node="Projection_9$$$$SETHEADERT$$"/>
     </calculationView>
   <calculationView xsi:type="Calculation:JoinView" id="n2_text" joinType="leftOuter">
     <descriptions/>
@@ -527,7 +527,7 @@
         <viewAttribute id="LANGU"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="Projection_10$$$$SCP_CAROZZI_SAC.ObjetosComunes::SETHEADERT$$"/>
+      <input node="Projection_10$$$$SETHEADERT$$"/>
     </calculationView>
   <calculationView xsi:type="Calculation:ProjectionView" id="Projection_11">
     <descriptions/>
@@ -539,7 +539,7 @@
         <viewAttribute id="SETNAME"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="Projection_11$$$$SCP_CAROZZI_SAC.ObjetosComunes::SETHEADERT$$"/>
+      <input node="Projection_11$$$$SETHEADERT$$"/>
     </calculationView>
   <calculationView xsi:type="Calculation:JoinView" id="n3_text" joinType="leftOuter">
     <descriptions/>
@@ -645,7 +645,7 @@
         <viewAttribute id="SETNAME"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="Projection_12$$$$SCP_CAROZZI_SAC.ObjetosComunes::SETHEADERT$$"/>
+      <input node="Projection_12$$$$SETHEADERT$$"/>
     </calculationView>
   <calculationView xsi:type="Calculation:JoinView" id="n5_text" joinType="leftOuter">
     <descriptions/>
@@ -717,7 +717,7 @@
         <viewAttribute id="SETCLASS"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="Projection_20$$$$SCP_CAROZZI_SAC.ObjetosComunes::SETHEADERT$$"/>
+      <input node="Projection_20$$$$SETHEADERT$$"/>
     </calculationView>
   <calculationView xsi:type="Calculation:JoinView" id="n6_text" joinType="leftOuter">
     <descriptions/>
@@ -818,7 +818,7 @@
         <viewAttribute id="SETCLASS"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="SCP_CAROZZI_SAC.ObjetosComunes::SETLEAF"/>
+      <input node="Projection_14$$$$SETLEAF$$"/>
     </calculationView>
   <calculationView xsi:type="Calculation:JoinView" id="Join_7" joinType="inner">
     <descriptions/>
@@ -861,7 +861,7 @@
         <viewAttribute id="SETCLASS"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="Projection_15$$$$SCP_CAROZZI_SAC.ObjetosComunes::SETLEAF$$"/>
+      <input node="Projection_15$$$$SETLEAF$$"/>
     </calculationView>
   <calculationView xsi:type="Calculation:ProjectionView" id="Projection_16">
     <descriptions/>
@@ -872,7 +872,7 @@
         <viewAttribute id="SETCLASS"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="Projection_16$$$$SCP_CAROZZI_SAC.ObjetosComunes::SETLEAF$$"/>
+      <input node="Projection_16$$$$SETLEAF$$"/>
     </calculationView>
   <calculationView xsi:type="Calculation:ProjectionView" id="Projection_17">
     <descriptions/>
@@ -883,7 +883,7 @@
         <viewAttribute id="SETCLASS"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="Projection_17$$$$SCP_CAROZZI_SAC.ObjetosComunes::SETLEAF$$"/>
+      <input node="Projection_17$$$$SETLEAF$$"/>
     </calculationView>
   <calculationView xsi:type="Calculation:JoinView" id="Join_8" joinType="inner">
     <descriptions/>
@@ -1012,7 +1012,7 @@
         <viewAttribute id="SETCLASS"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="Projection_18$$$$SCP_CAROZZI_SAC.ObjetosComunes::SETLEAF$$"/>
+      <input node="Projection_18$$$$SETLEAF$$"/>
     </calculationView>
   <calculationView xsi:type="Calculation:JoinView" id="Join_11" joinType="inner">
     <descriptions/>
@@ -1485,8 +1485,8 @@
         <rectangleSize height="-1" width="-1"/>
       </shape>
       <shape expanded="true" modelObjectName="n6_text" modelObjectNameSpace="CalculationView">
-        <upperLeftCorner x="945" y="449"/>
-        <rectangleSize height="-1" width="-1"/>
+        <upperLeftCorner x="1245" y="757"/>
+        <rectangleSize height="-1" width="160"/>
       </shape>
     <shape modelObjectName="n5_text" modelObjectNameSpace="n6_text" modelObjectType="JoinNodeInput">
       <upperLeftCorner x="20" y="30"/>

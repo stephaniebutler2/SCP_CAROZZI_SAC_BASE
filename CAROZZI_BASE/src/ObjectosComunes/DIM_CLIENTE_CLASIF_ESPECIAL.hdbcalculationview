@@ -8,10 +8,10 @@
   <informationModelLayout relativeWidthScenario="53"/>
   <dataSources>
     <DataSource id="KNB1">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::KNB1</resourceUri>
+      <resourceUri>KNB1</resourceUri>
     </DataSource>
     <DataSource id="Z1CLASIFCLIE">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::Z1CLASIFCLIE</resourceUri>
+      <resourceUri>Z1CLASIFCLIE</resourceUri>
     </DataSource>
   </dataSources>
 <calculationViews>

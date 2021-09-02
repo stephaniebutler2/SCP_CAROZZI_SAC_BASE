@@ -8,10 +8,10 @@
   <informationModelLayout relativeWidthScenario="35"/>
   <dataSources>
     <DataSource id="SETLEAF">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::SETLEAF</resourceUri>
+      <resourceUri>SETLEAF</resourceUri>
     </DataSource>
     <DataSource id="KNA1">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::KNA1</resourceUri>
+      <resourceUri>KNA1</resourceUri>
     </DataSource>
   </dataSources>
 <calculationViews>

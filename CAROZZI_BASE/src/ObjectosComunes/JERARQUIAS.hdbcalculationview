@@ -8,19 +8,19 @@
   <informationModelLayout relativeWidthScenario="46"/>
   <dataSources>
     <DataSource id="SETNODE">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::SETNODE</resourceUri>
+      <resourceUri>SETNODE</resourceUri>
     </DataSource>
-    <DataSource id="SCP_CAROZZI_SAC.ObjetosComunes::SETNODE">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::SETNODE</resourceUri>
+    <DataSource id="Projection_2$$$$SETNODE$$">
+      <resourceUri>SETNODE</resourceUri>
     </DataSource>
-    <DataSource id="Projection_3$$$$SCP_CAROZZI_SAC.ObjetosComunes::SETNODE$$">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::SETNODE</resourceUri>
+    <DataSource id="Projection_3$$$$SETNODE$$">
+      <resourceUri>SETNODE</resourceUri>
     </DataSource>
-    <DataSource id="Projection_4$$$$SCP_CAROZZI_SAC.ObjetosComunes::SETNODE$$">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::SETNODE</resourceUri>
+    <DataSource id="Projection_4$$$$SETNODE$$">
+      <resourceUri>SETNODE</resourceUri>
     </DataSource>
     <DataSource id="SETLEAF">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::SETLEAF</resourceUri>
+      <resourceUri>SETLEAF</resourceUri>
     </DataSource>
   </dataSources>
 <calculationViews>
@@ -47,7 +47,7 @@
         <viewAttribute id="SUBSETNAME"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="SCP_CAROZZI_SAC.ObjetosComunes::SETNODE"/>
+      <input node="Projection_2$$$$SETNODE$$"/>
     </calculationView>
   <calculationView xsi:type="Calculation:JoinView" id="Join_1" joinType="leftOuter">
     <descriptions/>
@@ -87,7 +87,7 @@
         <viewAttribute id="SUBSETNAME"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="Projection_3$$$$SCP_CAROZZI_SAC.ObjetosComunes::SETNODE$$"/>
+      <input node="Projection_3$$$$SETNODE$$"/>
     </calculationView>
   <calculationView xsi:type="Calculation:JoinView" id="Join_2" joinType="leftOuter">
     <descriptions/>
@@ -133,7 +133,7 @@
         <viewAttribute id="SUBSETNAME"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="Projection_4$$$$SCP_CAROZZI_SAC.ObjetosComunes::SETNODE$$"/>
+      <input node="Projection_4$$$$SETNODE$$"/>
     </calculationView>
   <calculationView xsi:type="Calculation:JoinView" id="Join_3" joinType="leftOuter">
     <descriptions/>

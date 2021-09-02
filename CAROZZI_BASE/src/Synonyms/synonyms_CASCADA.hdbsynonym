@@ -1,9 +1,0 @@
-{
-    
-    "SCP_CAROZZI_SAC.CASCADA::Z1CASCADA2": {
-        "target": {
-            "schema": "SCP_CAROZZI_SAC",
-            "object": "Z1CASCADA2"
-        }
-    }
-}

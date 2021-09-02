@@ -8,7 +8,7 @@
   <informationModelLayout relativeWidthScenario="22"/>
   <dataSources>
     <DataSource id="Z1CADSUP">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::Z1CADSUP</resourceUri>
+      <resourceUri>Z1CADSUP</resourceUri>
     </DataSource>
   </dataSources>
 <calculationViews/>
