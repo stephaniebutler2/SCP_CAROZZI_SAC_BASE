@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Calculation:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:AccessControl="http://www.sap.com/ndb/SQLCoreModelAccessControl.ecore" xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" schemaVersion="3.0" id="SCP_CAROZZI_SAC.ObjetosComunes::JERARQUIA_CLIENTE_2" applyPrivilegeType="NONE" defaultLanguage="$$language$$" hierarchiesSQLEnabled="false" dataCategory="DIMENSION" enforceSqlExecution="true" executionSemantic="UNDEFINED" outputViewType="Projection" xscCompatibilityMode="true">
+<Calculation:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:AccessControl="http://www.sap.com/ndb/SQLCoreModelAccessControl.ecore" xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" schemaVersion="3.0" id="JERARQUIA_CLIENTE_2" applyPrivilegeType="NONE" defaultLanguage="$$language$$" hierarchiesSQLEnabled="false" dataCategory="DIMENSION" enforceSqlExecution="true" executionSemantic="UNDEFINED" outputViewType="Projection" xscCompatibilityMode="true">
 <origin/>
   <descriptions defaultDescription="TEST_JER"/>
   <metadata changedAt="2019-11-29 17:31:17.634"/>
@@ -8,37 +8,37 @@
   <informationModelLayout relativeWidthScenario="52"/>
   <dataSources>
     <DataSource id="DIM_SETNODE">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::DIM_SETNODE</resourceUri>
+      <resourceUri>DIM_SETNODE</resourceUri>
     </DataSource>
-    <DataSource id="SCP_CAROZZI_SAC.ObjetosComunes::DIM_SETNODE">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::DIM_SETNODE</resourceUri>
+    <DataSource id="Projection_2$$$$DIM_SETNODE$$">
+      <resourceUri>DIM_SETNODE</resourceUri>
     </DataSource>
     <DataSource id="DIM_CLIENTE_SETLEAF_AUX">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::DIM_CLIENTE_SETLEAF_AUX</resourceUri>
+      <resourceUri>DIM_CLIENTE_SETLEAF_AUX</resourceUri>
     </DataSource>
-    <DataSource id="Projection_3$$$$SCP_CAROZZI_SAC.ObjetosComunes::DIM_SETNODE$$">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::DIM_SETNODE</resourceUri>
+    <DataSource id="Projection_3$$$$DIM_SETNODE$$">
+      <resourceUri>DIM_SETNODE</resourceUri>
     </DataSource>
-    <DataSource id="SCP_CAROZZI_SAC.ObjetosComunes::DIM_CLIENTE_SETLEAF_AUX">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::DIM_CLIENTE_SETLEAF_AUX</resourceUri>
+    <DataSource id="Projection_4$$$$DIM_CLIENTE_SETLEAF_AUX$$">
+      <resourceUri>DIM_CLIENTE_SETLEAF_AUX</resourceUri>
     </DataSource>
-    <DataSource id="Projection_5$$$$SCP_CAROZZI_SAC.ObjetosComunes::DIM_SETNODE$$">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::DIM_SETNODE</resourceUri>
+    <DataSource id="Projection_5$$$$DIM_SETNODE$$">
+      <resourceUri>DIM_SETNODE</resourceUri>
     </DataSource>
-    <DataSource id="Projection_7$$$$SCP_CAROZZI_SAC.ObjetosComunes::DIM_CLIENTE_SETLEAF_AUX$$">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::DIM_CLIENTE_SETLEAF_AUX</resourceUri>
+    <DataSource id="Projection_7$$$$DIM_CLIENTE_SETLEAF_AUX$$">
+      <resourceUri>DIM_CLIENTE_SETLEAF_AUX</resourceUri>
     </DataSource>
-    <DataSource id="Projection_8$$$$SCP_CAROZZI_SAC.ObjetosComunes::DIM_SETNODE$$">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::DIM_SETNODE</resourceUri>
+    <DataSource id="Projection_8$$$$DIM_SETNODE$$">
+      <resourceUri>DIM_SETNODE</resourceUri>
     </DataSource>
-    <DataSource id="Projection_9$$$$SCP_CAROZZI_SAC.ObjetosComunes::DIM_CLIENTE_SETLEAF_AUX$$">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::DIM_CLIENTE_SETLEAF_AUX</resourceUri>
+    <DataSource id="Projection_9$$$$DIM_CLIENTE_SETLEAF_AUX$$">
+      <resourceUri>DIM_CLIENTE_SETLEAF_AUX</resourceUri>
     </DataSource>
-    <DataSource id="Projection_10$$$$SCP_CAROZZI_SAC.ObjetosComunes::DIM_SETNODE$$">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::DIM_SETNODE</resourceUri>
+    <DataSource id="Projection_10$$$$DIM_SETNODE$$">
+      <resourceUri>DIM_SETNODE</resourceUri>
     </DataSource>
-    <DataSource id="Projection_11$$$$SCP_CAROZZI_SAC.ObjetosComunes::DIM_CLIENTE_SETLEAF_AUX$$">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::DIM_CLIENTE_SETLEAF_AUX</resourceUri>
+    <DataSource id="Projection_11$$$$DIM_CLIENTE_SETLEAF_AUX$$">
+      <resourceUri>DIM_CLIENTE_SETLEAF_AUX</resourceUri>
     </DataSource>
   </dataSources>
 <calculationViews>
@@ -67,7 +67,7 @@
         <viewAttribute id="DESCRIPT"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="SCP_CAROZZI_SAC.ObjetosComunes::DIM_SETNODE"/>
+      <input node="Projection_2$$$$DIM_SETNODE$$"/>
     </calculationView>
   <calculationView xsi:type="Calculation:JoinView" id="Join_1" joinType="leftOuter">
     <descriptions/>
@@ -161,7 +161,7 @@
         <viewAttribute id="DESCRIPT_1"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="Projection_3$$$$SCP_CAROZZI_SAC.ObjetosComunes::DIM_SETNODE$$"/>
+      <input node="Projection_3$$$$DIM_SETNODE$$"/>
     </calculationView>
   <calculationView xsi:type="Calculation:JoinView" id="Join_2" joinType="leftOuter">
     <descriptions/>
@@ -210,7 +210,7 @@
         <viewAttribute id="ID_TEXT"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="SCP_CAROZZI_SAC.ObjetosComunes::DIM_CLIENTE_SETLEAF_AUX"/>
+      <input node="Projection_4$$$$DIM_CLIENTE_SETLEAF_AUX$$"/>
     </calculationView>
   <calculationView xsi:type="Calculation:JoinView" id="Join_3" joinType="leftOuter">
     <descriptions/>
@@ -274,7 +274,7 @@
         <viewAttribute id="DESCRIPT_1"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="Projection_5$$$$SCP_CAROZZI_SAC.ObjetosComunes::DIM_SETNODE$$"/>
+      <input node="Projection_5$$$$DIM_SETNODE$$"/>
     </calculationView>
   <calculationView xsi:type="Calculation:JoinView" id="Join_4" joinType="leftOuter">
     <descriptions/>
@@ -333,7 +333,7 @@
         <viewAttribute id="ID_TEXT"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="Projection_7$$$$SCP_CAROZZI_SAC.ObjetosComunes::DIM_CLIENTE_SETLEAF_AUX$$"/>
+      <input node="Projection_7$$$$DIM_CLIENTE_SETLEAF_AUX$$"/>
     </calculationView>
   <calculationView xsi:type="Calculation:JoinView" id="Join_6" joinType="leftOuter">
     <descriptions/>
@@ -407,7 +407,7 @@
         <viewAttribute id="DESCRIPT_1"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="Projection_8$$$$SCP_CAROZZI_SAC.ObjetosComunes::DIM_SETNODE$$"/>
+      <input node="Projection_8$$$$DIM_SETNODE$$"/>
     </calculationView>
   <calculationView xsi:type="Calculation:JoinView" id="Join_7" joinType="leftOuter">
     <descriptions/>
@@ -480,7 +480,7 @@
         <viewAttribute id="ID_TEXT"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="Projection_9$$$$SCP_CAROZZI_SAC.ObjetosComunes::DIM_CLIENTE_SETLEAF_AUX$$"/>
+      <input node="Projection_9$$$$DIM_CLIENTE_SETLEAF_AUX$$"/>
     </calculationView>
   <calculationView xsi:type="Calculation:JoinView" id="Join_8" joinType="leftOuter">
     <descriptions/>
@@ -568,7 +568,7 @@
         <viewAttribute id="DESCRIPT_1"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="Projection_10$$$$SCP_CAROZZI_SAC.ObjetosComunes::DIM_SETNODE$$"/>
+      <input node="Projection_10$$$$DIM_SETNODE$$"/>
     </calculationView>
   <calculationView xsi:type="Calculation:JoinView" id="Join_9" joinType="leftOuter">
     <descriptions/>
@@ -655,7 +655,7 @@
         <viewAttribute id="ID_TEXT"/>
       </viewAttributes>
     <calculatedViewAttributes/>
-      <input node="Projection_11$$$$SCP_CAROZZI_SAC.ObjetosComunes::DIM_CLIENTE_SETLEAF_AUX$$"/>
+      <input node="Projection_11$$$$DIM_CLIENTE_SETLEAF_AUX$$"/>
     </calculationView>
   <calculationView xsi:type="Calculation:JoinView" id="Join_10" joinType="leftOuter">
     <descriptions/>
@@ -885,8 +885,8 @@
         <rectangleSize height="0" width="0"/>
       </shape>
       <shape expanded="true" modelObjectName="Projection_1" modelObjectNameSpace="CalculationView">
-        <upperLeftCorner x="37" y="1140"/>
-        <rectangleSize height="-1" width="-1"/>
+        <upperLeftCorner x="-144" y="1162"/>
+        <rectangleSize height="-1" width="160"/>
       </shape>
       <shape expanded="true" modelObjectName="Projection_2" modelObjectNameSpace="CalculationView">
         <upperLeftCorner x="253" y="1150"/>
@@ -921,8 +921,8 @@
       <rectangleSize width="250"/>
     </shape>
       <shape expanded="true" modelObjectName="Projection_3" modelObjectNameSpace="CalculationView">
-        <upperLeftCorner x="329" y="933"/>
-        <rectangleSize height="-1" width="-1"/>
+        <upperLeftCorner x="691" y="983"/>
+        <rectangleSize height="-1" width="160"/>
       </shape>
       <shape expanded="true" modelObjectName="Join_2" modelObjectNameSpace="CalculationView">
         <upperLeftCorner x="250" y="837"/>
@@ -937,8 +937,8 @@
       <rectangleSize width="250"/>
     </shape>
       <shape expanded="true" modelObjectName="Projection_4" modelObjectNameSpace="CalculationView">
-        <upperLeftCorner x="404" y="837"/>
-        <rectangleSize height="-1" width="-1"/>
+        <upperLeftCorner x="681" y="843"/>
+        <rectangleSize height="-1" width="160"/>
       </shape>
       <shape expanded="true" modelObjectName="Join_3" modelObjectNameSpace="CalculationView">
         <upperLeftCorner x="324" y="741"/>
@@ -953,8 +953,8 @@
       <rectangleSize width="250"/>
     </shape>
       <shape expanded="true" modelObjectName="Projection_5" modelObjectNameSpace="CalculationView">
-        <upperLeftCorner x="478" y="741"/>
-        <rectangleSize height="-1" width="-1"/>
+        <upperLeftCorner x="681" y="759"/>
+        <rectangleSize height="-1" width="160"/>
       </shape>
       <shape expanded="true" modelObjectName="Join_4" modelObjectNameSpace="CalculationView">
         <upperLeftCorner x="397" y="645"/>
@@ -969,8 +969,8 @@
       <rectangleSize width="250"/>
     </shape>
       <shape expanded="true" modelObjectName="Projection_7" modelObjectNameSpace="CalculationView">
-        <upperLeftCorner x="551" y="645"/>
-        <rectangleSize height="-1" width="-1"/>
+        <upperLeftCorner x="784" y="661"/>
+        <rectangleSize height="-1" width="160"/>
       </shape>
       <shape expanded="true" modelObjectName="Join_6" modelObjectNameSpace="CalculationView">
         <upperLeftCorner x="470" y="549"/>

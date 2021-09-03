@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Calculation:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" xmlns:DataFoundation="http://www.sap.com/ndb/BiModelDataFoundation.ecore" xmlns:Dimension="http://www.sap.com/ndb/BiModelDimension.ecore" schemaVersion="3.0" id="SCP_CAROZZI_SAC.CASCADA::Z1CASCADA2_01" applyPrivilegeType="NONE" defaultLanguage="$$language$$" hierarchiesSQLEnabled="false" dataCategory="CUBE" enforceSqlExecution="true" executionSemantic="UNDEFINED">
+<Calculation:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" xmlns:DataFoundation="http://www.sap.com/ndb/BiModelDataFoundation.ecore" xmlns:Dimension="http://www.sap.com/ndb/BiModelDimension.ecore" schemaVersion="3.0" id="Z1CASCADA2_01" applyPrivilegeType="NONE" defaultLanguage="$$language$$" hierarchiesSQLEnabled="false" dataCategory="CUBE" enforceSqlExecution="true" executionSemantic="UNDEFINED">
 <origin/>
   <descriptions defaultDescription="x"/>
   <metadata changedAt="2020-05-05 18:29:04.62"/>
@@ -259,7 +259,7 @@
       </localDimension>
     </localDimensions>
     <sharedDimensions>
-      <logicalJoin associatedObjectUri="SCP_CAROZZI_SAC.ObjetosComunes::DIM_OFICINA_VENTA">
+      <logicalJoin associatedObjectUri="DIM_OFICINA_VENTA">
         <attributes>
           <attributeRef>VKBUR$local</attributeRef>
           <attributeRef>MANDT$local</attributeRef>
@@ -274,7 +274,7 @@
           <attributeReference attributeName="OFICINA_VENTA" hidden="true"/>
         </associatedAttributeFeatures>
       </logicalJoin>
-      <logicalJoin associatedObjectUri="SCP_CAROZZI_SAC.ObjetosComunes::DIM_ORGANIZACION_VENTA">
+      <logicalJoin associatedObjectUri="DIM_ORGANIZACION_VENTA">
         <attributes>
           <attributeRef>VKORG$local</attributeRef>
           <attributeRef>MANDT$local</attributeRef>
@@ -289,7 +289,7 @@
           <attributeReference attributeName="ORGANIZACION_VENTA" hidden="true"/>
         </associatedAttributeFeatures>
       </logicalJoin>
-      <logicalJoin associatedObjectUri="SCP_CAROZZI_SAC.ObjetosComunes::DIM_SOCIEDAD_CO">
+      <logicalJoin associatedObjectUri="DIM_SOCIEDAD_CO">
         <attributes>
           <attributeRef>KOKRS$local</attributeRef>
           <attributeRef>MANDT$local</attributeRef>
@@ -305,7 +305,7 @@
           <attributeReference attributeName="SOCIEDAD_CO" hidden="true"/>
         </associatedAttributeFeatures>
       </logicalJoin>
-      <logicalJoin associatedObjectUri="SCP_CAROZZI_SAC.ObjetosComunes::DIM_GRUPO_MATERIAL">
+      <logicalJoin associatedObjectUri="DIM_GRUPO_MATERIAL">
         <attributes>
           <attributeRef>MATKL$local</attributeRef>
           <attributeRef>BUKRS$local</attributeRef>
@@ -324,7 +324,7 @@
           <attributeReference attributeName="GRUPO_MATERIAL_ATTR_CATEGORIA" hidden="true"/>
         </associatedAttributeFeatures>
       </logicalJoin>
-      <logicalJoin associatedObjectUri="SCP_CAROZZI_SAC.ObjetosComunes::DIM_MATERIAL">
+      <logicalJoin associatedObjectUri="DIM_MATERIAL">
         <attributes>
           <attributeRef>MANDT$local</attributeRef>
           <attributeRef>ARTNR$local</attributeRef>
@@ -349,7 +349,7 @@
           <attributeReference attributeName="MATERIAL_CORTO" hidden="true"/>
         </associatedAttributeFeatures>
       </logicalJoin>
-      <logicalJoin associatedObjectUri="SCP_CAROZZI_SAC.ObjetosComunes::DIM_VENDEDOR">
+      <logicalJoin associatedObjectUri="DIM_VENDEDOR">
         <attributes>
           <attributeRef>KMVTNR$local</attributeRef>
           <attributeRef>MANDT$local</attributeRef>
@@ -365,7 +365,7 @@
           <attributeReference attributeName="ENDDA" hidden="true"/>
         </associatedAttributeFeatures>
       </logicalJoin>
-      <logicalJoin associatedObjectUri="SCP_CAROZZI_SAC.ObjetosComunes::DIM_CLIENTE">
+      <logicalJoin associatedObjectUri="DIM_CLIENTE">
         <attributes>
           <attributeRef>KNDNR$local</attributeRef>
           <attributeRef>BUKRS$local</attributeRef>
@@ -408,7 +408,7 @@
           <attributeReference attributeName="CLIENTE_JER_NIVEL5_1" hidden="true"/>
         </associatedAttributeFeatures>
       </logicalJoin>
-      <logicalJoin associatedObjectUri="SCP_CAROZZI_SAC.ObjetosComunes::DIM_PAIS">
+      <logicalJoin associatedObjectUri="DIM_PAIS">
         <attributes>
           <attributeRef>LAND1$local</attributeRef>
           <attributeRef>MANDT$local</attributeRef>
@@ -423,7 +423,7 @@
           <attributeReference attributeName="PAIS" hidden="true"/>
         </associatedAttributeFeatures>
       </logicalJoin>
-      <logicalJoin associatedObjectUri="SCP_CAROZZI_SAC.ObjetosComunes::DIM_DIVISION_COMERCIAL">
+      <logicalJoin associatedObjectUri="DIM_DIVISION_COMERCIAL">
         <attributes>
           <attributeRef>WWDIV$local</attributeRef>
           <attributeRef>MANDT$local</attributeRef>
@@ -438,7 +438,7 @@
           <attributeReference attributeName="DIVISION_COMERCIAL" hidden="true"/>
         </associatedAttributeFeatures>
       </logicalJoin>
-      <logicalJoin associatedObjectUri="SCP_CAROZZI_SAC.ObjetosComunes::DIM_CUENTA">
+      <logicalJoin associatedObjectUri="DIM_CUENTA">
         <attributes>
           <attributeRef>Cuenta$local</attributeRef>
         </attributes>
@@ -478,34 +478,34 @@
       <shape modelObjectName="Projection_1" modelObjectNameSpace="StarJoinViewNodeInput" modelObjectType="repository">
         <upperLeftCorner x="794" y="343"/>
       </shape>
-      <shape modelObjectName="SCP_CAROZZI_SAC.ObjetosComunes::DIM_OFICINA_VENTA" modelObjectNameSpace="StarJoinViewNodeSharedCV" modelObjectType="repository">
+      <shape modelObjectName="DIM_OFICINA_VENTA" modelObjectNameSpace="StarJoinViewNodeSharedCV" modelObjectType="repository">
         <upperLeftCorner x="28" y="130"/>
       </shape>
-      <shape modelObjectName="SCP_CAROZZI_SAC.ObjetosComunes::DIM_ORGANIZACION_VENTA" modelObjectNameSpace="StarJoinViewNodeSharedCV" modelObjectType="repository">
+      <shape modelObjectName="DIM_ORGANIZACION_VENTA" modelObjectNameSpace="StarJoinViewNodeSharedCV" modelObjectType="repository">
         <upperLeftCorner x="44" y="304"/>
       </shape>
-      <shape modelObjectName="SCP_CAROZZI_SAC.ObjetosComunes::DIM_SOCIEDAD_CO" modelObjectNameSpace="StarJoinViewNodeSharedCV" modelObjectType="repository">
+      <shape modelObjectName="DIM_SOCIEDAD_CO" modelObjectNameSpace="StarJoinViewNodeSharedCV" modelObjectType="repository">
         <upperLeftCorner x="1118" y="22"/>
       </shape>
-      <shape modelObjectName="SCP_CAROZZI_SAC.ObjetosComunes::DIM_GRUPO_MATERIAL" modelObjectNameSpace="StarJoinViewNodeSharedCV" modelObjectType="repository">
+      <shape modelObjectName="DIM_GRUPO_MATERIAL" modelObjectNameSpace="StarJoinViewNodeSharedCV" modelObjectType="repository">
         <upperLeftCorner x="1125" y="288"/>
       </shape>
-      <shape modelObjectName="SCP_CAROZZI_SAC.ObjetosComunes::DIM_MATERIAL" modelObjectNameSpace="StarJoinViewNodeSharedCV" modelObjectType="repository">
+      <shape modelObjectName="DIM_MATERIAL" modelObjectNameSpace="StarJoinViewNodeSharedCV" modelObjectType="repository">
         <upperLeftCorner x="1203" y="567"/>
       </shape>
-      <shape modelObjectName="SCP_CAROZZI_SAC.ObjetosComunes::DIM_VENDEDOR" modelObjectNameSpace="StarJoinViewNodeSharedCV" modelObjectType="repository">
+      <shape modelObjectName="DIM_VENDEDOR" modelObjectNameSpace="StarJoinViewNodeSharedCV" modelObjectType="repository">
         <upperLeftCorner x="65" y="1"/>
       </shape>
-      <shape modelObjectName="SCP_CAROZZI_SAC.ObjetosComunes::DIM_CLIENTE" modelObjectNameSpace="StarJoinViewNodeSharedCV" modelObjectType="repository">
+      <shape modelObjectName="DIM_CLIENTE" modelObjectNameSpace="StarJoinViewNodeSharedCV" modelObjectType="repository">
         <upperLeftCorner x="86" y="48"/>
       </shape>
-      <shape modelObjectName="SCP_CAROZZI_SAC.ObjetosComunes::DIM_PAIS" modelObjectNameSpace="StarJoinViewNodeSharedCV" modelObjectType="repository">
+      <shape modelObjectName="DIM_PAIS" modelObjectNameSpace="StarJoinViewNodeSharedCV" modelObjectType="repository">
         <upperLeftCorner x="1281" y="39"/>
       </shape>
-      <shape modelObjectName="SCP_CAROZZI_SAC.ObjetosComunes::DIM_DIVISION_COMERCIAL" modelObjectNameSpace="StarJoinViewNodeSharedCV" modelObjectType="repository">
+      <shape modelObjectName="DIM_DIVISION_COMERCIAL" modelObjectNameSpace="StarJoinViewNodeSharedCV" modelObjectType="repository">
         <upperLeftCorner x="-51" y="83"/>
       </shape>
-      <shape modelObjectName="SCP_CAROZZI_SAC.ObjetosComunes::DIM_CUENTA" modelObjectNameSpace="StarJoinViewNodeSharedCV" modelObjectType="repository">
+      <shape modelObjectName="DIM_CUENTA" modelObjectNameSpace="StarJoinViewNodeSharedCV" modelObjectType="repository">
         <upperLeftCorner x="1775" y="30"/>
       </shape>
     </shapes>

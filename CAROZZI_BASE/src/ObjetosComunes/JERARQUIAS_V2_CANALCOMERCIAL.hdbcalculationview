@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Calculation:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:AccessControl="http://www.sap.com/ndb/SQLCoreModelAccessControl.ecore" xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" schemaVersion="3.0" id="SCP_CAROZZI_SAC.ObjetosComunes::JERARQUIAS_V2_CANALCOMERCIAL" applyPrivilegeType="NONE" defaultLanguage="$$language$$" hierarchiesSQLEnabled="false" dataCategory="DIMENSION" enforceSqlExecution="true" executionSemantic="UNDEFINED" outputViewType="Projection" xscCompatibilityMode="true">
+<Calculation:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:AccessControl="http://www.sap.com/ndb/SQLCoreModelAccessControl.ecore" xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" schemaVersion="3.0" id="JERARQUIAS_V2_CANALCOMERCIAL" applyPrivilegeType="NONE" defaultLanguage="$$language$$" hierarchiesSQLEnabled="false" dataCategory="DIMENSION" enforceSqlExecution="true" executionSemantic="UNDEFINED" outputViewType="Projection" xscCompatibilityMode="true">
 <origin/>
   <descriptions defaultDescription="TEST_JER"/>
   <metadata changedAt="2021-03-04 16:52:04.107"/>
@@ -14,7 +14,7 @@
       <resourceUri>SETNODE</resourceUri>
     </DataSource>
     <DataSource id="DIM_CANALES_SETLEAF_AUX">
-      <resourceUri>SCP_CAROZZI_SAC.ObjetosComunes::DIM_CANALES_SETLEAF_AUX</resourceUri>
+      <resourceUri>DIM_CANALES_SETLEAF_AUX</resourceUri>
     </DataSource>
     <DataSource id="Projection_3$$$$SETNODE$$">
       <resourceUri>SETNODE</resourceUri>
